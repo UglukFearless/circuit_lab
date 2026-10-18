@@ -1,0 +1,12 @@
+* Component models for lighting circuits.
+
+* LED lamp. Pins: l (brown, "phase"), n (blue, "neutral").
+* Level 1: lamp as a resistor, P at 230 V RMS.
+.subckt lamp_r l n p=8
+R1 l n {230*230/p}
+.ends lamp_r
+
+* Switch contact. on > 0.5 - closed.
+.subckt switch a b on=0 ron=0.01 roff=1e9
+R1 a b {on > 0.5 ? ron : roff}
+.ends switch

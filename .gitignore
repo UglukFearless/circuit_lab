@@ -1,0 +1,14 @@
+# Derived artifacts
+build/
+
+# Downloaded and built dependencies
+.deps/
+
+# Python
+.venv/
+__pycache__/
+
+# KiCad local state and backups
+*.kicad_prl
+*-backups/
+fp-info-cache
