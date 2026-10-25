@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "e4f72a23-3926-54e4-a572-fee9cea6a65d")
+	(uuid "06d0d737-a26e-5ec7-8f99-4d5ed7c4b118")
 	(paper "User" 210 110)
 	(lib_symbols
 		(symbol "power:GND"
@@ -652,64 +652,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "0214ff0f-6777-5097-8004-18f0b2d5e5eb")
-	)
-	(text "Люстра"
-		(exclude_from_sim no)
-		(at 85.09 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "47d12e5c-74a8-58d3-abc6-fd3a2cba2d6d")
-	)
-	(text "G3"
-		(exclude_from_sim no)
-		(at 156.21 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "77d2965d-0899-5601-8e03-d2dbab453681")
-	)
-	(text "Люстра — как должно быть"
-		(exclude_from_sim no)
-		(at 25.4 30.48 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "80c34b8c-7892-5dbd-8c25-c5e2d230c52b")
-	)
-	(text "Щит, выключатель"
-		(exclude_from_sim no)
-		(at 25.4 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b34583ec-2b75-5d33-a4e6-56e328c28ce2")
-	)
-	(text "Потолок"
-		(exclude_from_sim no)
-		(at 60.96 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3df3aac-ef10-5aa5-b6ac-01205167d557")
+		(uuid "f790e43b-522e-5624-9d30-0a1508a86c97")
 	)
 	(text "G2"
 		(exclude_from_sim no)
@@ -721,7 +664,88 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e03ba3e8-80ff-58a9-af12-008323154c1e")
+		(uuid "04a3ffcc-5761-5734-a4b4-2a0c99d20454")
+	)
+	(text "Потолок"
+		(exclude_from_sim no)
+		(at 60.96 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22a78eb0-673b-58bc-8380-a5e339a6841a")
+	)
+	(text "Люстра — как есть (гипотеза)"
+		(exclude_from_sim no)
+		(at 25.4 30.48 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "242cb868-5f53-5292-a44d-acdc4fd248bd")
+	)
+	(text "G3"
+		(exclude_from_sim no)
+		(at 156.21 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b018715-6f5f-5bf0-a826-ddebcffd430b")
+	)
+	(text "перепутаны на X_BLUE и X_BR2"
+		(exclude_from_sim no)
+		(at 57.15 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c72b1ce-2dab-5242-b1d7-4e1f56bf2add")
+	)
+	(text "Люстра"
+		(exclude_from_sim no)
+		(at 85.09 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92f1540e-5d57-5e60-86f9-667cd917afdd")
+	)
+	(text "ОШИБКА: фаза B1 и N"
+		(exclude_from_sim no)
+		(at 57.15 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d04a8878-eee9-506c-8784-ec49b2fe6637")
+	)
+	(text "Щит, выключатель"
+		(exclude_from_sim no)
+		(at 25.4 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df2cd267-419b-56e1-bdec-629661d5735f")
 	)
 	(text ".param b1=0 b2=0"
 		(exclude_from_sim no)
@@ -732,55 +756,55 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8c5cc1e1-98fc-40cc-8aaf-bd0f03aa2ddb")
-	)
-	(junction
-		(at 139.7 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00b53f8a-f41e-59e9-bb87-f1e631ab4362")
-	)
-	(junction
-		(at 139.7 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0355faff-a488-5f57-ae91-e56fd6d845af")
-	)
-	(junction
-		(at 101.6 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2afae8af-0bc4-59aa-93c0-f3ffac60a2fb")
-	)
-	(junction
-		(at 157.48 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41f5703e-e178-5d44-bf44-a74e44c36a30")
-	)
-	(junction
-		(at 101.6 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ca4a5ae-717c-5aba-af12-8c69b6d1f4a0")
-	)
-	(junction
-		(at 157.48 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c193e974-2a44-555a-9e2f-0dbc162e2a41")
-	)
-	(junction
-		(at 119.38 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e147f0d3-39f9-5f05-9364-21987773b869")
+		(uuid "63b4af82-1add-488e-bff6-8f166023d216")
 	)
 	(junction
 		(at 30.48 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff2c5062-d5b3-5eb8-8d1e-c8a88d33efc2")
+		(uuid "0816a6d5-4b8c-5e97-947e-c6bec2e71da0")
+	)
+	(junction
+		(at 139.7 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4662747b-3d63-582b-98f4-547f1a5584fa")
+	)
+	(junction
+		(at 157.48 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56c091cd-492a-5f93-8a1e-2fe3bdcb7107")
+	)
+	(junction
+		(at 101.6 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a002f32-6b5a-5076-8d41-4efa0d01f12f")
+	)
+	(junction
+		(at 157.48 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc34ac29-e8aa-567b-b941-5ac742684dba")
+	)
+	(junction
+		(at 101.6 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d615a7d7-0840-5edd-8c91-838c26133278")
+	)
+	(junction
+		(at 139.7 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7d5397e-4770-50dd-995d-f209592eda49")
+	)
+	(junction
+		(at 119.38 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef313566-461c-5907-905e-a910e2fb9678")
 	)
 	(wire
 		(pts
@@ -790,59 +814,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "03ee5c60-62b9-5614-b9f3-110c6a81fb51")
-	)
-	(wire
-		(pts
-			(xy 30.48 58.42) (xy 30.48 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c8cd8d7-03c0-5ba8-8ec4-ca6edeed68ca")
-	)
-	(wire
-		(pts
-			(xy 139.7 71.12) (xy 157.48 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 139 69 19 1)
-		)
-		(uuid "0ef29805-14ba-537e-b824-6c51982c829d")
-	)
-	(wire
-		(pts
-			(xy 30.48 71.12) (xy 30.48 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1945338d-04f5-50f1-9910-cee1bc71561d")
-	)
-	(wire
-		(pts
-			(xy 66.04 86.36) (xy 66.04 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1de249f6-84b3-5c19-af2e-92daa0d86e13")
-	)
-	(wire
-		(pts
-			(xy 86.36 45.72) (xy 139.7 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 139 69 19 1)
-		)
-		(uuid "26ef8c0e-6441-5776-ba83-415e112ff14f")
+		(uuid "06f1a278-102f-5ef9-9560-58bd2ff55dfe")
 	)
 	(wire
 		(pts
@@ -853,48 +825,7 @@
 			(type default)
 			(color 139 69 19 1)
 		)
-		(uuid "2e99a2b4-df93-588c-8709-e0f97b2b3cc2")
-	)
-	(wire
-		(pts
-			(xy 101.6 58.42) (xy 101.6 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 139 69 19 1)
-		)
-		(uuid "2ecc4357-f943-532c-a100-d6132257c952")
-	)
-	(wire
-		(pts
-			(xy 76.2 45.72) (xy 86.36 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37bf2cab-ec61-5aee-967b-8fd021b7ae57")
-	)
-	(wire
-		(pts
-			(xy 30.48 81.28) (xy 30.48 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42d0d693-7143-5e64-91a2-4e341643c379")
-	)
-	(wire
-		(pts
-			(xy 30.48 58.42) (xy 45.72 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "449bd130-03b2-5665-b901-d9c6fca3aa47")
+		(uuid "0714c086-64c7-52b1-8a0c-11cad2a5cda6")
 	)
 	(wire
 		(pts
@@ -905,59 +836,18 @@
 			(type default)
 			(color 139 69 19 1)
 		)
-		(uuid "48a133c5-58c2-5d62-9cb5-802be7cf30ef")
+		(uuid "0ee37b82-8912-54c5-8c23-daf7780f350d")
 	)
 	(wire
 		(pts
-			(xy 157.48 71.12) (xy 175.26 71.12)
+			(xy 139.7 71.12) (xy 157.48 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 139 69 19 1)
 		)
-		(uuid "58e6e54d-6c3d-511a-a73d-f29387dda6d3")
-	)
-	(wire
-		(pts
-			(xy 66.04 81.28) (xy 76.2 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "682f038e-3722-59ed-9f90-bab0af6ada31")
-	)
-	(wire
-		(pts
-			(xy 30.48 86.36) (xy 66.04 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e97412c-617b-5fd1-82f0-74416b9eec0b")
-	)
-	(wire
-		(pts
-			(xy 86.36 81.28) (xy 101.6 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 90 200 1)
-		)
-		(uuid "6f4721dd-1f85-5a14-8b94-ca0dbd74f1dc")
-	)
-	(wire
-		(pts
-			(xy 55.88 58.42) (xy 76.2 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "729b81d0-8a63-53de-b640-dc6b893bb801")
+		(uuid "0fa9c6f2-d3e2-5714-a82d-a501006538e3")
 	)
 	(wire
 		(pts
@@ -967,71 +857,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8abbdcc0-2f0d-5be1-a631-9f22038ac8a2")
+		(uuid "11339788-73b8-56fc-93b0-94105ad183a8")
 	)
 	(wire
 		(pts
-			(xy 101.6 81.28) (xy 119.38 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 90 200 1)
-		)
-		(uuid "9e396e1f-2670-5adc-8d4b-36ea4edd4aa4")
-	)
-	(wire
-		(pts
-			(xy 76.2 81.28) (xy 86.36 81.28)
+			(xy 30.48 86.36) (xy 63.5 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6f014cb-1f24-5ddd-8743-2d148c0943b5")
-	)
-	(wire
-		(pts
-			(xy 157.48 81.28) (xy 175.26 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 90 200 1)
-		)
-		(uuid "ba9e3435-4600-5b59-92f6-65266d48fc8a")
-	)
-	(wire
-		(pts
-			(xy 139.7 45.72) (xy 139.7 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 139 69 19 1)
-		)
-		(uuid "c4442515-0010-59a2-b751-f3d1e28da5cc")
-	)
-	(wire
-		(pts
-			(xy 30.48 45.72) (xy 45.72 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca409d8d-3e1f-530d-a1bb-1a12f3fe5743")
-	)
-	(wire
-		(pts
-			(xy 139.7 81.28) (xy 157.48 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 90 200 1)
-		)
-		(uuid "cd1284c4-27e5-50df-a0fb-9e14a36cf866")
+		(uuid "1219b611-dbec-587a-b54d-0b80e5b0a6f6")
 	)
 	(wire
 		(pts
@@ -1042,37 +878,235 @@
 			(type default)
 			(color 0 90 200 1)
 		)
-		(uuid "cdfcb3ba-f22d-522a-800d-24964e3bc652")
+		(uuid "26f9f48e-b256-5ec2-bf24-2752f8a2d23f")
 	)
-	(label "N"
-		(at 30.48 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(wire
+		(pts
+			(xy 30.48 45.72) (xy 45.72 45.72)
 		)
-		(uuid "56392dac-5bf2-5bbe-923f-242fa88aedf3")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bf2192-85e4-59c6-a3a7-e9d0f4383b53")
 	)
-	(label "X_BR3"
-		(at 87.63 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 157.48 81.28) (xy 175.26 81.28)
 		)
-		(uuid "839b2ef2-62d1-5b25-a9e8-15c1c2364b90")
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 90 200 1)
+		)
+		(uuid "4b95e794-1ff3-5a9d-b496-72d0c86cf119")
 	)
-	(label "X_BR2"
-		(at 87.63 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 68.58 81.28) (xy 76.2 81.28)
 		)
-		(uuid "88fe8e06-c58c-5850-af27-6c383f73a3c2")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5bb291-a3f0-5cb3-8328-3215012a6577")
+	)
+	(wire
+		(pts
+			(xy 68.58 58.42) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f912dba-2d3f-5b45-a617-cc39a51d4d76")
+	)
+	(wire
+		(pts
+			(xy 30.48 81.28) (xy 30.48 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f59f94-b1a0-586d-b920-b75d543733e1")
+	)
+	(wire
+		(pts
+			(xy 101.6 58.42) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 139 69 19 1)
+		)
+		(uuid "612ec131-c0f5-5add-8ab9-80717f86cc60")
+	)
+	(wire
+		(pts
+			(xy 63.5 66.04) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f62df12-d691-562f-ac72-a89872954738")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 86.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c3b29c-3370-576e-8745-375d2a07644a")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 90 200 1)
+		)
+		(uuid "92301318-814c-53f2-85eb-9c95b580e1d2")
+	)
+	(wire
+		(pts
+			(xy 63.5 86.36) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fc8031-212a-5a29-8da0-9ac59fdb5ec7")
+	)
+	(wire
+		(pts
+			(xy 55.88 58.42) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9bfb12-5683-522b-b472-71212ba93ef4")
+	)
+	(wire
+		(pts
+			(xy 73.66 58.42) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ee7cf5-650a-5206-98ae-0c83dc9f6395")
+	)
+	(wire
+		(pts
+			(xy 30.48 71.12) (xy 30.48 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6afa6bc-c1cc-5719-8f3d-9182616b8165")
+	)
+	(wire
+		(pts
+			(xy 86.36 45.72) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 139 69 19 1)
+		)
+		(uuid "bb6a4f9a-1d8d-5f94-a9b0-6f4dcfe84c87")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 157.48 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 90 200 1)
+		)
+		(uuid "d11ec556-4cdd-597f-85a8-34eac8e0c1a9")
+	)
+	(wire
+		(pts
+			(xy 157.48 71.12) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 139 69 19 1)
+		)
+		(uuid "dc5717ff-6d6a-561b-ab6d-c728ccf74311")
+	)
+	(wire
+		(pts
+			(xy 73.66 66.04) (xy 73.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd467876-a5c6-590d-83cb-60533dc121df")
+	)
+	(wire
+		(pts
+			(xy 86.36 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 90 200 1)
+		)
+		(uuid "de7b220a-5de7-55e5-b8d7-d8170d4c3509")
+	)
+	(wire
+		(pts
+			(xy 30.48 58.42) (xy 30.48 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38581b1-024c-5c21-95b6-ae4b9e9ef8cc")
+	)
+	(wire
+		(pts
+			(xy 139.7 45.72) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 139 69 19 1)
+		)
+		(uuid "e6e8720a-469e-54a4-94df-2764bb1d8b3f")
+	)
+	(wire
+		(pts
+			(xy 30.48 58.42) (xy 45.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93b64e7-a469-5e04-8f80-baf32d3c4a9e")
+	)
+	(wire
+		(pts
+			(xy 76.2 45.72) (xy 86.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36c711e-5b90-5302-ad57-8d2663d3b5f8")
 	)
 	(label "X_BLUE"
 		(at 87.63 81.28 0)
@@ -1082,7 +1116,37 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "edae8a66-b5e1-5be5-bed9-25cdd24ef1f5")
+		(uuid "01b0b90d-4c72-53fd-b111-e164bc08fe6d")
+	)
+	(label "X_BR3"
+		(at 87.63 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "464af141-60be-51f9-b061-dedcaea095cd")
+	)
+	(label "X_BR2"
+		(at 87.63 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "578c6dbf-4798-5409-b40a-1b4c69ee57a7")
+	)
+	(label "N"
+		(at 30.48 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1082b0b-be7d-5a36-b2b2-eb42eba288f0")
 	)
 	(label "L"
 		(at 30.48 50.8 180)
@@ -1092,522 +1156,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f57b0190-54b7-5136-a13f-09910c428845")
-	)
-	(symbol
-		(lib_id "Device:Lamp")
-		(at 139.7 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "34940927-0c26-5c04-a62b-4df88260f58b")
-		(property "Reference" "LA3"
-			(at 143.51 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED 8W"
-			(at 143.51 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 139.7 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Library" "${KIPRJMOD}/../sim/models.lib"
-			(at 139.7 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Name" "lamp_r"
-			(at 139.7 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Pins" "1=n 2=l"
-			(at 139.7 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1"
-			(uuid "53d88a3d-a0d8-5e54-9f79-e3e0534f4d57")
-		)
-		(pin "2"
-			(uuid "dad603d6-e6cb-5727-bf93-c8b74f45be1b")
-		)
-		(instances
-			(project ""
-				(path "/e4f72a23-3926-54e4-a572-fee9cea6a65d"
-					(reference "LA3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 50.8 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "66cf01f2-7a36-5bd1-bda4-a167ddd63c61")
-		(property "Reference" "B2"
-			(at 49.53 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 49.53 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 50.8 45.72 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Library" "${KIPRJMOD}/../sim/models.lib"
-			(at 50.8 45.72 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Name" "switch"
-			(at 50.8 45.72 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Pins" "1=a 2=b"
-			(at 50.8 45.72 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Params" "on={b2}"
-			(at 50.8 45.72 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1"
-			(uuid "765512cb-9056-5078-b442-abc74f55ba4d")
-		)
-		(pin "2"
-			(uuid "a46376c6-9d75-5e58-9950-f456960b8e38")
-		)
-		(instances
-			(project ""
-				(path "/e4f72a23-3926-54e4-a572-fee9cea6a65d"
-					(reference "B2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Lamp")
-		(at 157.48 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73d8d2b6-be87-5502-9b94-8106d151fc35")
-		(property "Reference" "LA4"
-			(at 161.29 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED 8W"
-			(at 161.29 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 157.48 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Library" "${KIPRJMOD}/../sim/models.lib"
-			(at 157.48 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Name" "lamp_r"
-			(at 157.48 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Pins" "1=n 2=l"
-			(at 157.48 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1"
-			(uuid "a7a7e224-ba17-5709-b8a4-a73b56c1fb8b")
-		)
-		(pin "2"
-			(uuid "5b19e1eb-86f6-51c7-b5fb-64239e1a5d48")
-		)
-		(instances
-			(project ""
-				(path "/e4f72a23-3926-54e4-a572-fee9cea6a65d"
-					(reference "LA4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Lamp")
-		(at 101.6 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c24e49b-f03a-52c9-95f8-948af8e03673")
-		(property "Reference" "LA1"
-			(at 105.41 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED 8W"
-			(at 105.41 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 101.6 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Library" "${KIPRJMOD}/../sim/models.lib"
-			(at 101.6 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Name" "lamp_r"
-			(at 101.6 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Pins" "1=n 2=l"
-			(at 101.6 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1"
-			(uuid "dfe458cc-dce6-5a9f-bfc3-130a72d78c47")
-		)
-		(pin "2"
-			(uuid "e7e968fe-5a5a-5b2a-8a8c-5c25d352f7b2")
-		)
-		(instances
-			(project ""
-				(path "/e4f72a23-3926-54e4-a572-fee9cea6a65d"
-					(reference "LA1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Lamp")
-		(at 119.38 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "832c6a7b-5296-5e11-b022-d18f89f888a7")
-		(property "Reference" "LA2"
-			(at 123.19 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED 8W"
-			(at 123.19 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 119.38 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Library" "${KIPRJMOD}/../sim/models.lib"
-			(at 119.38 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Name" "lamp_r"
-			(at 119.38 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Pins" "1=n 2=l"
-			(at 119.38 76.2 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "1"
-			(uuid "89a3f5d9-62f6-5ee5-a972-29f80c2e41ae")
-		)
-		(pin "2"
-			(uuid "ccd23542-c978-5503-83a0-8bb1d341147f")
-		)
-		(instances
-			(project ""
-				(path "/e4f72a23-3926-54e4-a572-fee9cea6a65d"
-					(reference "LA2")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "e002fcdc-f6fb-579f-b102-d0bf518ae6c5")
 	)
 	(symbol
 		(lib_id "Device:Lamp")
@@ -1619,7 +1168,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "93a273a1-2eb3-5c62-9f88-31380203ef19")
+		(uuid "78759723-3399-57a7-9c6f-887cf3c5ceef")
 		(property "Reference" "LA5"
 			(at 179.07 74.93 0)
 			(show_name no)
@@ -1681,7 +1230,7 @@
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Sim.Library" "${KIPRJMOD}/../sim/models.lib"
+		(property "Sim.Library" "${KIPRJMOD}/../../lib/spice/models.lib"
 			(at 175.26 76.2 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
@@ -1697,14 +1246,14 @@
 			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
-			(uuid "e51ccd24-2d7f-52ce-8a9c-8a046b72c82a")
+			(uuid "fde78e14-e032-5793-9592-0b2434457182")
 		)
 		(pin "2"
-			(uuid "5e0fca73-d827-56d9-8a61-7c77e42bb1c1")
+			(uuid "c5a89203-ed4a-5ee1-9b94-bb0e3a370147")
 		)
 		(instances
 			(project ""
-				(path "/e4f72a23-3926-54e4-a572-fee9cea6a65d"
+				(path "/06d0d737-a26e-5ec7-8f99-4d5ed7c4b118"
 					(reference "LA5")
 					(unit 1)
 				)
@@ -1712,8 +1261,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 50.8 58.42 0)
+		(lib_id "Device:Lamp")
+		(at 139.7 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1721,9 +1270,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b7d11541-7427-5909-bc78-9a0f25725a01")
-		(property "Reference" "B1"
-			(at 49.53 54.61 0)
+		(uuid "7ac5b0f5-9b5a-5d47-8eaf-2c00de9347d9")
+		(property "Reference" "LA3"
+			(at 143.51 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1733,8 +1282,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 49.53 63.5 0)
+		(property "Value" "LED 8W"
+			(at 143.51 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1745,7 +1294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 58.42 0)
+			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1757,7 +1306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 58.42 0)
+			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,7 +1318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 58.42 0)
+			(at 139.7 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1779,40 +1328,142 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 50.8 58.42 0)
+			(at 139.7 76.2 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Sim.Library" "${KIPRJMOD}/../sim/models.lib"
-			(at 50.8 58.42 0)
+		(property "Sim.Library" "${KIPRJMOD}/../../lib/spice/models.lib"
+			(at 139.7 76.2 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Sim.Name" "switch"
-			(at 50.8 58.42 0)
+		(property "Sim.Name" "lamp_r"
+			(at 139.7 76.2 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Sim.Pins" "1=a 2=b"
-			(at 50.8 58.42 0)
-			(hide yes)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Sim.Params" "on={b1}"
-			(at 50.8 58.42 0)
+		(property "Sim.Pins" "1=n 2=l"
+			(at 139.7 76.2 0)
 			(hide yes)
 			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
-			(uuid "06b66075-a971-58bc-8ef9-929414546981")
+			(uuid "34c9ab76-c084-5be9-a23e-4771a0953c84")
 		)
 		(pin "2"
-			(uuid "6b79eaa5-65aa-52e4-8a63-c86ae380fcbb")
+			(uuid "e84398b7-3f5d-5e4b-86ec-ca5a0c0635de")
 		)
 		(instances
 			(project ""
-				(path "/e4f72a23-3926-54e4-a572-fee9cea6a65d"
-					(reference "B1")
+				(path "/06d0d737-a26e-5ec7-8f99-4d5ed7c4b118"
+					(reference "LA3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 50.8 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f5d27ad-41df-5a52-bf3f-eca40a1bf092")
+		(property "Reference" "B2"
+			(at 49.53 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 49.53 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 50.8 45.72 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Library" "${KIPRJMOD}/../../lib/spice/models.lib"
+			(at 50.8 45.72 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Name" "switch"
+			(at 50.8 45.72 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Pins" "1=a 2=b"
+			(at 50.8 45.72 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Params" "on={b2}"
+			(at 50.8 45.72 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "4e7cbf8c-82d1-55c1-9403-452362924aa9")
+		)
+		(pin "2"
+			(uuid "418760e5-d6aa-5f04-a254-2f0bbb6ecace")
+		)
+		(instances
+			(project ""
+				(path "/06d0d737-a26e-5ec7-8f99-4d5ed7c4b118"
+					(reference "B2")
 					(unit 1)
 				)
 			)
@@ -1828,7 +1479,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "caff29e0-5570-5ba8-b5d7-0efbe0586555")
+		(uuid "b646cc0d-34e8-52e5-a2a6-486e58d84ca5")
 		(property "Reference" "V1"
 			(at 34.29 74.93 0)
 			(show_name no)
@@ -1906,15 +1557,428 @@
 			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
-			(uuid "ecec6da5-8487-5cfa-a927-a7d8bd7b9d93")
+			(uuid "0b4d43b4-b8ab-51ca-979e-11ef5eb0477c")
 		)
 		(pin "2"
-			(uuid "b8354df5-f39e-5e26-a2cc-d9e16af757da")
+			(uuid "4115e03f-89f5-5f56-94d8-eb45ca344a3e")
 		)
 		(instances
 			(project ""
-				(path "/e4f72a23-3926-54e4-a572-fee9cea6a65d"
+				(path "/06d0d737-a26e-5ec7-8f99-4d5ed7c4b118"
 					(reference "V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 50.8 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7c2f941-1813-5ada-a709-ad0d9112d989")
+		(property "Reference" "B1"
+			(at 49.53 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 49.53 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 50.8 58.42 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Library" "${KIPRJMOD}/../../lib/spice/models.lib"
+			(at 50.8 58.42 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Name" "switch"
+			(at 50.8 58.42 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Pins" "1=a 2=b"
+			(at 50.8 58.42 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Params" "on={b1}"
+			(at 50.8 58.42 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "7f77fd9a-3bd2-54d8-8e5a-90218a8fa5cb")
+		)
+		(pin "2"
+			(uuid "d2980a28-f473-5374-9c32-6f959c3c7509")
+		)
+		(instances
+			(project ""
+				(path "/06d0d737-a26e-5ec7-8f99-4d5ed7c4b118"
+					(reference "B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Lamp")
+		(at 157.48 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c98c5d85-cf30-55e4-a5d3-173e7bc2a07c")
+		(property "Reference" "LA4"
+			(at 161.29 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED 8W"
+			(at 161.29 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 157.48 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Library" "${KIPRJMOD}/../../lib/spice/models.lib"
+			(at 157.48 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Name" "lamp_r"
+			(at 157.48 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Pins" "1=n 2=l"
+			(at 157.48 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "ef9dfbf7-734d-5250-b01f-884cb27553a0")
+		)
+		(pin "2"
+			(uuid "48c13f46-d3d5-535d-a2e3-92eda62412ae")
+		)
+		(instances
+			(project ""
+				(path "/06d0d737-a26e-5ec7-8f99-4d5ed7c4b118"
+					(reference "LA4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Lamp")
+		(at 119.38 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce91f29e-d154-546d-bca5-7fc0259f736b")
+		(property "Reference" "LA2"
+			(at 123.19 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED 8W"
+			(at 123.19 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 119.38 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Library" "${KIPRJMOD}/../../lib/spice/models.lib"
+			(at 119.38 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Name" "lamp_r"
+			(at 119.38 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Pins" "1=n 2=l"
+			(at 119.38 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "16337c44-d137-5173-9a08-8bf5019eb533")
+		)
+		(pin "2"
+			(uuid "bc769613-2096-5bd5-bc58-ae018b93aba6")
+		)
+		(instances
+			(project ""
+				(path "/06d0d737-a26e-5ec7-8f99-4d5ed7c4b118"
+					(reference "LA2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Lamp")
+		(at 101.6 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fabde6a5-8744-5805-9415-6360c29c11ff")
+		(property "Reference" "LA1"
+			(at 105.41 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED 8W"
+			(at 105.41 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 101.6 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Library" "${KIPRJMOD}/../../lib/spice/models.lib"
+			(at 101.6 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Name" "lamp_r"
+			(at 101.6 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sim.Pins" "1=n 2=l"
+			(at 101.6 76.2 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "f3b3be36-933f-55b5-a907-8dd22880041e")
+		)
+		(pin "2"
+			(uuid "aed7301f-81ef-58c6-a350-6586853f8e3a")
+		)
+		(instances
+			(project ""
+				(path "/06d0d737-a26e-5ec7-8f99-4d5ed7c4b118"
+					(reference "LA1")
 					(unit 1)
 				)
 			)
@@ -1922,11 +1986,11 @@
 	)
 	(symbol (lib_id "power:GND") (at 30.48 86.36 0) (unit 1)
 		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-		(uuid "69f55e68-23ed-5720-8211-45b3f30d87f1")
+		(uuid "e2b9e503-6b0e-50f4-80f0-f529701a15a8")
 		(property "Reference" "#PWR01" (at 30.48 92.71 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "Value" "GND" (at 30.48 90.17 0) (hide yes) (effects (font (size 1.27 1.27))))
-		(pin "1" (uuid "d128bf02-9754-54cc-b6db-094e57a0199e"))
-		(instances (project "" (path "/e4f72a23-3926-54e4-a572-fee9cea6a65d" (reference "#PWR01") (unit 1))))
+		(pin "1" (uuid "adcc3f96-47c3-5985-83f5-6713fa8b77a7"))
+		(instances (project "" (path "/06d0d737-a26e-5ec7-8f99-4d5ed7c4b118" (reference "#PWR01") (unit 1))))
 	)
 	(sheet_instances
 		(path "/"

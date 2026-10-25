@@ -1,4 +1,4 @@
-* Component models for lighting circuits.
+* Component models for circuit_lab circuits.
 
 * LED lamp. Pins: l (brown, "phase"), n (blue, "neutral").
 * Level 1: lamp as a resistor, P at 230 V RMS.

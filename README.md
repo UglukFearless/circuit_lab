@@ -9,6 +9,7 @@
 ## Запуск
 
 ```
-uv run build.py           # сборка
-uv run sim/run_cases.py   # сценарий цепи люстры
+uv run tools/build.py              # сборка всех цепей
+uv run tools/build.py chandelier   # сборка одной цепи
+uv run tools/simulate.py           # сценарий цепи люстры
 ```
